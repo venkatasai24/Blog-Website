@@ -3,7 +3,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
-const _ = require("lodash");
 const mongoose = require("mongoose");
 
 mongoose.connect("mongodb+srv://venkatasai24042004:PlBtdPBaTwUugI4S@cluster0.s6se6mz.mongodb.net/blogDB",{useNewUrlParser:true});
